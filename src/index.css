@@ -1,0 +1,44 @@
+body{
+  background: black;
+  color: white;
+}
+.myimg{
+  height: 200px;
+  background: white;
+}
+#heading{
+  background: black;
+  color: white;
+}
+.heading{
+  background: black;
+  color: white;
+}
+#footer{
+  background: black;
+  color: white;
+}
+
+
+@media only screen and (max-width:1000px){
+  .myname{font-size: 3vw;}
+  .myoccupation{font-size: 2.5vw;}
+  #navigation{font-size: 2vw;}
+  .myskills{font-size: 2.5vw;}
+  .skills{font-size: 2.25vw;}
+  th{font-size: 2vw;}
+  td{font-size: 1.5vw;}
+  #footer{font-size: 2vw;}
+}
+@media only screen and (max-width:840px){
+  .myname{font-size: 3.5vw;}
+  .myoccupation{font-size: 3vw;}
+  #navigation{font-size: 2.5vw;}
+  .myskills{font-size: 2.5vw;}
+  .skills{font-size: 2.25vw;}
+  th{font-size: 2vw;}
+  td{font-size: 1.75vw;}
+  #footer{font-size: 2.75vw;}
+}
+
+
